@@ -1,0 +1,23 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E7F6E7;
+}
+
+a {
+  text-decoration: none; 
+  color: #D99A6C;
+}
+
+h1, h2 {
+  font-family: Georgia;
+}
+
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.109); 
+  border-radius: 8px; 
+}
+
+figcaption {
+  font-size: 0.9em; /* Slightly smaller font size */
+  color: #666; /* Light gray color for the caption */
+}
