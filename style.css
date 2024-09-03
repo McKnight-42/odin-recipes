@@ -3,10 +3,43 @@
   background-color: #E7F6E7;
 }
 
-a {
-  text-decoration: none; 
-  color: #D99A6C;
+.nav-list {
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center items horizontally */
+  list-style: none; /* Removes bullet points */
 }
+
+.nav-list li {
+  margin: 0 15px; 
+}
+
+.nav-list a {
+  text-decoration: none; 
+  color: #D99A6C; 
+  font-size: 1em; 
+  transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+a {
+  text-decoration: none;
+  color: #D99A6C; /* Link color */
+  font-size: 1em;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  padding: 5px 10px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners for hover effect */
+}
+
+/* Hover effect for all links */
+a:hover {
+  background-color: #555; /* Darker background color on hover */
+  color: #D99A6C; /* White text color on hover */
+}
+
+
 
 h1, h2 {
   font-family: Georgia;
@@ -21,3 +54,19 @@ figcaption {
   font-size: 0.9em; /* Slightly smaller font size */
   color: #666; /* Light gray color for the caption */
 }
+
+.top-section {
+  text-align: center;
+}
+
+.middle-section {
+  display: flex; /* For side-by-side layout of image and ingredients */
+  gap: 20px; /* Space between image and ingredients sections */
+  align-items: flex-start; /* Align items at the top within the middle section */
+  padding: 20px; /* Optional: padding around the section */
+}
+
+.middle-section {
+  display: flex;
+}
+
